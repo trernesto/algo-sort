@@ -3,7 +3,7 @@
 #include <iostream>
 
 template<typename T>
-void sortVector_bubble(std::vector<T>& vec) {
+void sortVectorBubble(std::vector<T>& vec) {
 	int j;
 	T temp;
 	for (int i = 0; i < vec.size(); ++i) {

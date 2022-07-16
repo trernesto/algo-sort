@@ -63,7 +63,7 @@ public:
 		}		
 	}
 
-	std::vector<T> sortVector_heap() {
+	std::vector<T> sortVectorHeap() {
 		Heap tempHeap = heap;
 		std::vector<T> sortedVec;
 		while (tempHeap.size() > 0) {

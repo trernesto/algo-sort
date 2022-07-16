@@ -36,7 +36,7 @@ std::vector<T> merge(std::vector<T> left, std::vector<T> right) {
 
 
 template<typename T>
-std::vector<T> sortVector_merge(std::vector<T> vec) {
+std::vector<T> sortVectorMerge(std::vector<T> vec) {
 	if (vec.size() == 1) {
 		//debug
 		//std::cout << std::endl << "ended: " << vec[0] << std::endl;
