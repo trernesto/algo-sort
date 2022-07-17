@@ -5,7 +5,7 @@
 #include "QuickSort.h"
 
 int main() {
-	std::vector<double> vec = {1, 5, 14, 32, 2, 0, -5, 6, 17, 44, 52, 11};
+	std::vector<double> vec = {1, 2, 2, 5, 14, 32, 2, 0, -5, 6, 17, 44, 52, 11};
 	//Heap heap = Heap(vec);
 	//sortVectorBubble(vec);
 	//vec = sortVectorMerge(vec);
